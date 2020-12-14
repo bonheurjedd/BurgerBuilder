@@ -1,26 +1,14 @@
 .Burger {
-   width: 100%;
-   margin: auto;
-   height: 250px;
-   text-align: center;
-   font-weight: bold;
-   font-size: 1.2rem;
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 500px;
+    margin: 0 auto;
+    overflow-y: scroll;
 }
-@media(min-width: 1000px) and (min-height: 700px) {
-    .Burger {
-      width: 700px;
-      margin: 600px;
-   }
-}
-@media(min-width: 500px) and (min-height: 400px) {
-    .Burger {
-      width: 350px;
-      margin: 300px;
-   }
-}
-@media(min-width: 500px) and (min-height: 401px) {
-    .Burger {
-      width: 450px;
-      margin: 400px;
-   }
+@media screen and (max-width : 768px ){
+         .Burger {
+            width: 100%;
+         }
 }
